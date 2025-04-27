@@ -114,6 +114,13 @@ return {
 				end,
 				desc = "Lazygit",
 			},
+			{
+				"<leader>un",
+				function()
+					Snacks.notifier.hide()
+				end,
+				desc = "Dismiss All Notifications",
+			},
 		},
 	},
 	{

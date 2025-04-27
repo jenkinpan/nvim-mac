@@ -5,7 +5,8 @@ return {
 		vim.o.timeout = true
 		vim.o.timeoutlen = 300
 	end,
-	opts = {},
+	opts_extend = { "spec" },
+	opts = { preset = "helix" },
 	config = function()
 		local wk = require("which-key")
 		wk.setup({

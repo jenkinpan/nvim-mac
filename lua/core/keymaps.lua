@@ -15,7 +15,7 @@ local opts = { noremap = true, silent = true }
 map("n", "<leader>L", "<cmd>Lazy<cr>", { desc = "Open Lazy" })
 
 -- Open Mason
-map("n", "<leader>M", "<cmd>Mason<cr>", { desc = "Open Mason" })
+map("n", "<leader>cm", "<cmd>Mason<cr>", { desc = "Open Mason" })
 
 -- quit
 map("n", "<leader>qq", "<cmd>qa<cr>", { desc = "Quit All" })
@@ -64,9 +64,6 @@ map("n", "<leader>ca", "<cmd>Lspsaga code_action<cr>", { desc = "Code Action" })
 -- CodeSnap keymaps in visual mode
 map("v", "<leader>cc", "<cmd>CodeSnap<cr>", { desc = "Codesnap to clipboard" })
 map("v", "<leader>cs", "<cmd>CodeSnapSave<cr>", { desc = "Save snapshot in ~/Pictures" })
-
--- set dismiss noice message
-map("n", "<leader>un", "<cmd>NoiceDismiss<cr>", { desc = "Dismiss Noice Messages" })
 
 -- Git Stuffs keymaps
 -- set get preview code with gitsigns
