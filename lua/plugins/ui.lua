@@ -333,6 +333,9 @@ return {
 							text_align = "center",
 							separator = true,
 						},
+						{
+							filetype = "snacks_layout_box",
+						},
 					},
 					show_close_icon = false,
 					hover = {

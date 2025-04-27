@@ -38,3 +38,5 @@ opt.foldlevel = 99
 
 -- set conceallevel for markdown obsidian
 opt.conceallevel = 2
+
+opt.laststatus = 3 -- global statusline
