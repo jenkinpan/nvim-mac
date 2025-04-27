@@ -65,7 +65,6 @@ return {
 				sources = cmp.config.sources({
 					{ name = "nvim_lsp", max_item_count = 5, group_index = 2 }, -- LSP source
 					{ name = "codeium", group_index = 0 }, -- codeium source
-					{ name = "copilot", group_index = 0 }, -- copilot source
 					{ name = "buffer", max_item_count = 5 }, -- text with current buffer
 					{ name = "path", max_item_count = 5, group_index = 2 }, -- file system paths
 					{ name = "luasnip", max_item_count = 5, group_index = 2 }, -- snippets
@@ -83,7 +82,6 @@ return {
 							maxwidth = 50,
 							ellipsis_char = "...",
 							symbol_map = {
-								Copilot = "",
 								Codeium = "",
 							},
 						})(entry, item)
