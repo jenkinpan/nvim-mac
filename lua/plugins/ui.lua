@@ -1,4 +1,5 @@
 return {
+	{ "nvim-tree/nvim-web-devicons", lazy = true },
 	{
 		-- set UI: lualine(status line)
 		"nvim-lualine/lualine.nvim",
